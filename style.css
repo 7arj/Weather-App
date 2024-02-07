@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+}
 body{
     background: #222;
 }
@@ -17,7 +23,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.seacrh input{
+.search input{
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -40,6 +46,13 @@ body{
 }
 .search button img{
     width: 30px;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+   font-size: 24px;
+   display: none;
 }
 .weather-icon{
     width: 170px;
@@ -69,4 +82,7 @@ text-align: left;
 .col img{
 width: 40px;
 margin-right:10px;
+}
+.weather{
+    display: none;
 }
